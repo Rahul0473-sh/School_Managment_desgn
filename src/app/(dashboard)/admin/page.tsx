@@ -1,3 +1,4 @@
+import Announcment from "@/components/Announcment";
 import AttendanceChart from "@/components/AttendanceChart";
 import CountChart from "@/components/CountChart";
 import EventCalendar from "@/components/EventCalendar";
@@ -36,7 +37,8 @@ const adminPage = () => {
 
       {/*right */}
       <div className=" w-full lg:w-1/3 ">
-       <EventCalendar/>
+        <EventCalendar />
+        <Announcment/>
       </div>
     </div>
   );
