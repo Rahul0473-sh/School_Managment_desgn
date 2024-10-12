@@ -34,7 +34,7 @@ const menuItems = [
       {
         icon: "/subject.png",
         label: "Subjects",
-        href: "/list/subjects",
+        href: "/list/Subjects",
         visible: ["admin"],
       },
       {
