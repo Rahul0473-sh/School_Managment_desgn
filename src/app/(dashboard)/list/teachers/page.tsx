@@ -73,8 +73,8 @@ const Teacherspage = () => {
           </div>
         </td>
         <td className="hidden md:table-cell">{item.teacherId}</td>
-        <td className="hidden md:table-cell">{item.subjects.join(',')}</td>
         <td className="hidden md:table-cell">{item.classes.join(',')}</td>
+        <td className="hidden md:table-cell">{item.subjects.join(',')}</td>
         <td className="hidden md:table-cell">{item.phone}</td>
         <td className="hidden md:table-cell">{item.address}</td>
         <td>
@@ -86,7 +86,7 @@ const Teacherspage = () => {
             </Link>
               {  role==='admin' &&
 
-              <button className='w-7 h-7 flex items-center justify-center rounded-full bg-lamaPurple'>
+              <button onClick={(()=>console.log("heloow"))} className='w-7 h-7 flex items-center justify-center rounded-full bg-lamaPurple'>
                 <Image src="/delete.png " alt="" width={16} height={16} />
               </button>
               }

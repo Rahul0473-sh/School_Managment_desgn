@@ -37,7 +37,7 @@ const Navbar = () => {
           </div>
           <div className="flex flex-col">
             <span className="text-xs leading-3 font-medium">Rahul sharma</span>
-            <span className="text-[10px] text-gray-600 text-right">Admin</span>
+            <span className="text-[10px] text-gray-600 text-right">admin</span>
           </div>
           
                 <div>
